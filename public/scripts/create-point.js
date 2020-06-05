@@ -61,6 +61,7 @@ function handleSelectedItem(event) {
 
     // adcionar ou remover uma classe
     itemLi.classList.toggle("selected")
+    
     const itemId = event.target.dataset.id
 
     // verificar se existem intens selecionados, se sim pegar os itrens selecionados
@@ -78,6 +79,7 @@ function handleSelectedItem(event) {
         })
 
         selectedItems = filteredItems
+
     } else {
         // se não estiver selecionado, adicionar a seleçao
         selectedItems.push(itemId)
