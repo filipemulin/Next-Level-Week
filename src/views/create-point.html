@@ -129,6 +129,8 @@
 {% block modal %}
     {% if saved %}
         {% include "partials/point-created.html" %}
+    {% elif erro %}
+        {% include "partials/error.html" %}
     {% endif %}
 {% endblock modal %}
 

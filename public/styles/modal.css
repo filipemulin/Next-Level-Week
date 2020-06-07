@@ -87,3 +87,14 @@
     color: white;
     margin-top: 32px;
 }
+
+
+#modal.point img {
+    width: 150px;
+}
+
+form p {
+    font-size: 14px;
+    margin-top: 8px; 
+    color: #ababac;   
+}

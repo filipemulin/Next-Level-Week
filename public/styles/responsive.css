@@ -34,6 +34,8 @@
         margin-left: 0;
 }
 
+}
+
 @media (min-width: 1700px) {
     #page-home {
         background-position-x: 40vw;
@@ -44,7 +46,16 @@
     #page-home {
         background-position-y: 150px;
     }
+ 
 }
+
+@media (max-width: 500px) {
+    .items-grid {
+        grid-template-columns: 1fr; 
+    }
+
+}
+
 
 
 
